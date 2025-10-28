@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cerâmica Espumada - Explorando Materiais Inovadores</title>
+  <style>
+    /* ======== ESTILO GERAL ======== */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f8f9fa;
+      margin: 0;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #2b5876, #4e4376);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2em;
+      opacity: 0.9;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #eee;
+      padding: 0.5rem 0;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #4e4376;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 1rem 2rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #4e4376;
+      border-bottom: 3px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .card {
+      background: #fafafa;
+      border-radius: 8px;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .quiz, .simulador {
+      text-align: center;
+      margin-top: 1.5rem;
+    }
+
+    button {
+      background: #4e4376;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 20px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #2b5876;
+    }
+
+    footer {
+      background: #2b5876;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+
+    .zoom-img {
+      width: 100%;
+      border-radius: 6px;
+      transition: transform 0.5s ease;
+    }
+
+    .zoom-img:hover {
+      transform: scale(1.1);
+    }
+
+    /* ======== GALERIA ======== */
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .galeria img {
+      width: 100%;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .galeria img:hover {
+      transform: scale(1.07);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .legenda {
+      text-align: center;
+      font-size: 0.9em;
+      color: #555;
+      margin-top: 0.3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌿 Cerâmica Espumada</h1>
+    <p>Explore um dos materiais mais inovadores e sustentáveis da atualidade</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">O que é</a>
+    <a href="#como-fazer">Como é feita</a>
+    <a href="#usos">Aplicações</a>
+    <a href="#atividades">Atividades</a>
+    <a href="#galeria">Galeria</a>
+  </nav>
+
+  <!-- SOBRE -->
+  <section id="sobre">
+    <h2>O que é a Cerâmica Espumada?</h2>
+    <p>A <strong>cerâmica espumada</strong> é um material leve e resistente, com uma estrutura cheia de poros microscópicos, parecida com uma esponja sólida. 
+      Ela é produzida ao misturar compostos cerâmicos com agentes que liberam gases, criando bolhas que ficam presas durante o aquecimento.</p>
+    <p>O resultado é um material de alta performance, ótimo para isolamento térmico e acústico, e ainda sustentável!</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Ceramic_foam_filter.jpg" alt="Cerâmica Espumada" class="zoom-img">
+  </section>
+
+  <!-- COMO É FEITA -->
+  <section id="como-fazer">
+    <h2>Como é feita?</h2>
+    <ol>
+      <li>Mistura-se o pó cerâmico com um agente espumante (que gera gás).</li>
+      <li>A mistura é moldada e aquecida em um forno (sinterização).</li>
+      <li>As bolhas formadas ficam presas, criando a estrutura “espumada”.</li>
+    </ol>
+    <p>🧪 É o mesmo princípio do pão: o fermento cria bolhas de ar e, quando assa, elas ficam presas na massa endurecida!</p>
+  </section>
+
+  <!-- USOS -->
+  <section id="usos">
+    <h2>Onde é usada?</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>🏗️ Construção Civil</h3>
+        <p>Isolamento térmico e acústico — mantém o ambiente mais confortável e economiza energia.</p>
+      </div>
+      <div class="card">
+        <h3>🏭 Indústria</h3>
+        <p>Utilizada como filtro para metais e gases, retendo impurezas e suportando altas temperaturas.</p>
+      </div>
+      <div class="card">
+        <h3>⚡ Energia</h3>
+        <p>Em turbinas, fornos e reatores, resiste a calor extremo sem se deformar.</p>
+      </div>
+      <div class="card">
+        <h3>🌍 Sustentabilidade</h3>
+        <p>Pode ser feita com materiais reciclados, reduzindo o impacto ambiental.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ATIVIDADES INTERATIVAS -->
+  <section id="atividades">
+    <h2>Atividades Interativas</h2>
+
+    <div class="simulador">
+      <h3>🧠 Monte sua Cerâmica Espumada</h3>
+      <p>Escolha os parâmetros abaixo e veja o resultado!</p>
+      <label>Tipo de Cerâmica:</label>
+      <select id="tipo">
+        <option value="argila">Argila</option>
+        <option value="alumina">Alumina</option>
+        <option value="zirconia">Zircônia</option>
+      </select><br><br>
+      <label>Nível de Espumação:</label>
+      <input type="range" id="espumacao" min="1" max="5" value="3">
+      <p id="resultadoSimulador">Resultado: Médio equilíbrio entre leveza e resistência.</p>
+      <button onclick="simular()">Simular</button>
+    </div>
+
+    <div class="quiz">
+      <h3>🧩 Quiz Rápido</h3>
+      <p>Qual é a principal vantagem da cerâmica espumada?</p>
+      <button onclick="responder(true)">Isolamento e leveza</button>
+      <button onclick="responder(false)">Condutividade elétrica</button>
+      <p id="respostaQuiz"></p>
+    </div>
+  </section>
+
+  <!-- GALERIA DE IMAGENS -->
+  <section id="galeria">
+    <h2>Galeria de Imagens</h2>
+    <p>Veja algumas imagens reais e ilustrativas de cerâmicas espumadas e suas aplicações:</p>
+    
+    <div class="galeria">
+      <div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Ceramic_foam_filter.jpg" alt="Filtro de cerâmica espumada">
+        <div class="legenda">Filtro cerâmico espumado</div>
+      </div>
+      <div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Porous_ceramic.jpg" alt="Estrutura porosa de cerâmica">
+        <div class="legenda">Estrutura porosa ampliada</div>
+      </div>
+      <div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Ceramic_foam_closeup.jpg" alt="Close da cerâmica espumada">
+        <div class="legenda">Detalhe microscópico dos poros</div>
+      </div>
+      <div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Ceramic_foam_filter_aluminium.jpg" alt="Aplicação industrial da cerâmica espumada">
+        <div class="legenda">Uso industrial em fundição</div>
+      </div>
+      <div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Ceramic_foam.jpg" alt="Bloco de cerâmica espumada">
+        <div class="legenda">Bloco de cerâmica espumada leve</div>
+      </div>
+      <div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Ceramic_foam_filter_structure.jpg" alt="Estrutura interna ampliada">
+        <div class="legenda">Visualização interna em microscópio</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 - Projeto Educativo sobre Materiais Avançados | Desenvolvido para fins educativos</p>
+  </footer>
+
+  <script>
+    // ======== Simulador ========
+    function simular() {
+      const tipo = document.getElementById("tipo").value;
+      const espumacao = document.getElementById("espumacao").value;
+      let texto = "";
+
+      if (espumacao <= 2) texto = "Mais densa e resistente, mas menos isolante.";
+      else if (espumacao == 3) texto = "Médio equilíbrio entre leveza e resistência.";
+      else texto = "Muito leve e isolante, porém mais frágil.";
+
+      document.getElementById("resultadoSimulador").innerText = 
+        `Material: ${tipo.charAt(0).toUpperCase() + tipo.slice(1)} — ${texto}`;
+    }
+
+    // ======== Quiz ========
+    function responder(correta) {
+      const resposta = document.getElementById("respostaQuiz");
+      if (correta) {
+        resposta.innerHTML = "✅ Correto! A cerâmica espumada é leve e isolante.";
+        resposta.style.color = "green";
+      } else {
+        resposta.innerHTML = "❌ Não exatamente. Ela é mais usada como isolante térmico e acústico.";
+        resposta.style.color = "red";
+      }
+    }
+  </script>
+
+</body>
+</html>
